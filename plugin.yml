@@ -1,5 +1,5 @@
 name: ServerAssets
-main: ServerAssets\Plugin
+main: ServerAssets\Main
 api: [1.0.0,2.0.0,1.13.0]
 description: A template plugin for server beginners and makers with commands
 version: 0.1.1fix

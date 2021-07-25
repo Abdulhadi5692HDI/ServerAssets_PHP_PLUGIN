@@ -1,0 +1,29 @@
+name: ServerAssets
+main: ServerAssets\Plugin
+api: [1.0.0,2.0.0,1.13.0]
+description: A template plugin for server beginners and makers with commands
+version: 0.1.1fix
+
+#Used api from 1.0.0 and 2.0.0 so it should be compatible with php  7.3 and 5.3
+#network version 0.14.0release
+#Made by abdulhadi5692
+
+author: abdulhadi5692
+
+#It also needs some commands with function :)
+
+commands:
+about:
+descripton: "§2§l§oShow about server"
+usage: "/about"
+permission: serversys.command.about #Show it in chat but not in someone's else's
+
+mcver:
+description: "Checks Wich mcpe ver you have"
+usage: "/mcver -ver <username> <args> print versionName"
+permission: serversys.command.mcver.showver
+
+
+
+
+
